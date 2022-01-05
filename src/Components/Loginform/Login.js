@@ -3,7 +3,7 @@ const Login = () => {
     return (
         <div className='Login'>
             <div className='box'>
-                <h2>Login</h2>
+                <h2>Login form</h2>
                 <form>
                     <div className='inputbox'>
                         <input type="text" name="" required />
