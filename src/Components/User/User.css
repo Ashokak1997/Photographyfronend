@@ -1,0 +1,21 @@
+.user{
+     float: right;
+}
+.user ul{
+    display: flex;
+    list-style: none;
+    vertical-align: middle;
+}
+.user ul li{
+    justify-content: space-between;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+.user ul li i{
+    font-size: 17px;
+    color: white;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: black;
+    padding: 8px;
+}

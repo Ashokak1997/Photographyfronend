@@ -1,0 +1,25 @@
+.Navbar{
+    display: grid;
+    grid-template-rows: 20% 80%;
+     background-color: #353333;
+    color: white;
+    height: 100vh;
+  }
+  .Navbar >div:nth-child(1){
+    margin-top: 20px;
+  }
+  .Navbar img{
+    width: 274px;
+  }
+.Navbar ul li {
+  list-style: none;
+  padding: 20px 0;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.Navbar ul li:hover{
+  margin-left: 10px;
+  transition: 0.4s;
+  transition-timing-function: linear;
+}
