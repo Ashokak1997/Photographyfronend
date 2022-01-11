@@ -1,7 +1,7 @@
-.Login{
+.Register{
     margin: 0;
     padding: 0;
-    background-image: url(../../Assets/image/loginbackground.png);
+    background-image: url(../../Assets/image/registerback.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,9 +70,4 @@
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-}
-.forget p{
-    float: right;
-    color: #fff;
-    margin-top: -25px;
 }

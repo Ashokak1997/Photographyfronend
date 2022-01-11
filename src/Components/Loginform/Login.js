@@ -3,7 +3,7 @@ const Login = () => {
     return (
         <div className='Login'>
             <div className='box'>
-                <h2>Login form</h2>
+                <h2>Login</h2>
                 <form>
                     <div className='inputbox'>
                         <input type="text" name="" required />
@@ -14,7 +14,7 @@ const Login = () => {
                         <label>Password</label>
                     </div>
                     <div className='forget'>
-                        <p>forget password</p>
+                        <p>forget password?</p>
                     </div>
                     {/* <br /> */}
                     <input type="submit" name='' value="Submit" />
