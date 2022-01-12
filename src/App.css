@@ -2,3 +2,19 @@
   display: grid;
   grid-template-columns: 20% 80%;
 }
+
+@media (max-width: 960px) {
+  .App{
+    grid-template-columns: 30% 70%;
+  }
+}
+@media (max-width: 720px) {
+  .App{
+    grid-template-columns: 40% 60% !important;
+  }
+}
+@media (max-width: 480px) {
+  .App{
+    grid-template-columns: 40% 60%;
+  }
+}

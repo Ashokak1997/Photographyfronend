@@ -1,4 +1,4 @@
-.Navbar{
+/* .Navbar{
     display: grid;
     grid-template-rows: 20% 80%;
      background-color: #353333;
@@ -22,4 +22,51 @@
   margin-left: 10px;
   transition: 0.4s;
   transition-timing-function: linear;
+} */
+
+.Navbar{
+  display: grid;
+  grid-template-rows: 20% 80%;
+   background-color: #353333;
+  color: white;
+  height: 100vh;
 }
+.Navbar >div:nth-child(1){
+  margin-top: 20px;
+}
+.Navbar img{
+  width: 100%;
+}
+.Navbar ul li {
+list-style: none;
+padding: 20px 0;
+color: white;
+font-size: 18px;
+cursor: pointer;
+}
+.Navbar ul li:hover{
+margin-left: 10px;
+transition: 0.5s;
+transition-timing-function: linear;
+}
+
+.Navbar ul li a{
+color: #ffffff;
+text-decoration: none;
+}
+
+/* @media (max-width: 960px) {
+.Navbar{
+  grid-template-rows: 30% 70%;
+}
+}
+@media (max-width: 720px) {
+.Navbar{
+  grid-template-rows: 40% 60% !important;
+}
+}
+@media (max-width: 480px) {
+.Navbar{
+  grid-template-rows: 40% 60%;
+}
+} */

@@ -1,0 +1,17 @@
+.Folder {
+    background: aquamarine;
+    width: 100%;
+}
+.Folder .icon {
+    font-size: 64px;
+    padding: 30px;
+}
+.Folder .icon-upload {
+    color: rgb(255, 127, 217);
+}
+.Folder .icon-qa {
+    color: blue;
+}
+.Folder .icon-download {
+    color: brown;
+}

@@ -1,4 +1,4 @@
-.user{
+/* .user{
      float: right;
 }
 .user ul{
@@ -18,4 +18,35 @@
     border-radius: 50%;
     background-color: black;
     padding: 8px;
+} */
+.User {
+    margin: 10px;
+}
+
+.User div {
+    display: grid;
+    grid-template-columns: 95% 5%;
+}
+
+.User div .user_name {
+    color: brown;
+    font-size: 24px;
+    text-align: end;
+}
+
+.User div .logout_icon {
+    position: relative;
+    color: crimson;
+    font-size: 24px;
+    text-align: end;
+    align-self: center;
+    right: 20px;
+}
+
+.User hr {
+    color: black;
+    height: 1px;
+    font-weight: 600;
+    background: black;
+    /* margin-top: 35px; */
 }

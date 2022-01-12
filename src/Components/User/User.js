@@ -1,15 +1,14 @@
 import './User.css';
 const User = () => {
-    return ( 
-        <div className="user">
-            <ul>
-                <li>User Name</li>
-                <li>
-                <i class="fa fa-user-o" aria-hidden="true"></i>
-                </li>
-            </ul>           
+    return (
+        <div className="User">
+            <div>
+                <span className="user_name">Chella Durai</span>
+                <i className="fa fa-user-o logout_icon" aria-hidden="true"></i>
+            </div>
+            <hr />
         </div>
-     );
+    );
 }
- 
+
 export default User;
