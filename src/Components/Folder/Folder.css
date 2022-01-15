@@ -1,17 +1,14 @@
 .Folder {
-    background: aquamarine;
-    width: 100%;
+    /* background: aquamarine; */
+    /* height: 90vh; */
+    margin-top: 11%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
-.Folder .icon {
-    font-size: 64px;
-    padding: 30px;
+.upload{
+    text-align: center;
 }
-.Folder .icon-upload {
-    color: rgb(255, 127, 217);
-}
-.Folder .icon-qa {
-    color: blue;
-}
-.Folder .icon-download {
-    color: brown;
+.upload p{
+    font-weight: 700;
+    font-size: 27px;
 }

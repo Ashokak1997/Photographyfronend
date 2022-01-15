@@ -2,7 +2,7 @@ import './Resetpassword.css';
 const Resetpassword = () => {
     return ( 
         <div className='Reset'>
-        <div className='box'>
+        <div className='box1'>
             {/* <h2>Login</h2> */}
             <form>
                 <div className='inputbox'>

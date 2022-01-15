@@ -37,11 +37,15 @@
 .Navbar img{
   width: 100%;
 }
+.Navbar ul{
+  margin-left: 53px;
+    margin-top: 40px;
+}
 .Navbar ul li {
 list-style: none;
 padding: 20px 0;
 color: white;
-font-size: 18px;
+font-size: 21px;
 cursor: pointer;
 }
 .Navbar ul li:hover{

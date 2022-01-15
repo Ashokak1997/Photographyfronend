@@ -1,48 +1,28 @@
-/* .user{
-     float: right;
-}
-.user ul{
-    display: flex;
-    list-style: none;
-    vertical-align: middle;
-}
-.user ul li{
-    justify-content: space-between;
-    margin-right: 30px;
-    vertical-align: middle;
-}
-.user ul li i{
-    font-size: 17px;
-    color: white;
-    vertical-align: middle;
-    border-radius: 50%;
-    background-color: black;
-    padding: 8px;
-} */
 .User {
     margin: 10px;
 }
 
 .User div {
     display: grid;
-    grid-template-columns: 95% 5%;
+    grid-template-columns: 94% 6%;
 }
 
 .User div .user_name {
-    color: brown;
-    font-size: 24px;
+    color: black;
+    font-weight: 550;
+    font-size: 22px;
     text-align: end;
+    text-decoration: none;
 }
 
-.User div .logout_icon {
+/* .User div .logout_icon {
     position: relative;
     color: crimson;
     font-size: 24px;
     text-align: end;
     align-self: center;
     right: 20px;
-}
-
+} */
 .User hr {
     color: black;
     height: 1px;
